@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="nesting-algorithm"
+		module="nesting-algorithm$sources_javadoc"
+		revision="1.0"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20151022170049"/>
+	<dependencies>
+		<module organisation="org.elasticsearch" name="elasticsearch">
+			<revision name="1.7.0" status="release" pubdate="20150716222757" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9907" time="0" location="/Users/liziyao/.ivy2/cache/org.elasticsearch/elasticsearch/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/elasticsearch/elasticsearch/1.7.0/elasticsearch-1.7.0.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="elasticsearch" type="jar" ext="jar" status="no" details="" size="14047920" time="0" location="/Users/liziyao/.ivy2/cache/org.elasticsearch/elasticsearch/jars/elasticsearch-1.7.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/elasticsearch/elasticsearch/1.7.0/elasticsearch-1.7.0.jar"/>
+					</artifact>
+					<artifact name="elasticsearch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5572054" time="0" location="/Users/liziyao/.ivy2/cache/org.elasticsearch/elasticsearch/srcs/elasticsearch-1.7.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/elasticsearch/elasticsearch/1.7.0/elasticsearch-1.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.12" status="release" pubdate="20130303064606" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="34">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3408" time="0" location="/Users/liziyao/.ivy2/cache/org.yaml/snakeyaml/ivy-1.12.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.12" rev-constraint-default="1.12" rev-constraint-dynamic="1.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172423" time="0" location="/Users/liziyao/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.12-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12-sources.jar"/>
+					</artifact>
+					<artifact name="snakeyaml" type="jar" ext="jar" status="no" details="" size="270779" time="0" location="/Users/liziyao/.ivy2/cache/org.yaml/snakeyaml/jars/snakeyaml-1.12.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar"/>
+					</artifact>
+					<artifact name="snakeyaml" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="782831" time="0" location="/Users/liziyao/.ivy2/cache/org.yaml/snakeyaml/docs/snakeyaml-1.12-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="4.1" status="release" pubdate="20121014233823" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="33">
+				<metadata-artifact status="no" details="" size="4380" time="0" location="/Users/liziyao/.ivy2/cache/org.ow2.asm/asm-commons/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/liziyao/.ivy2/cache/org.ow2.asm/asm-commons/srcs/asm-commons-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1-sources.jar"/>
+					</artifact>
+					<artifact name="asm-commons" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1518830" time="0" location="/Users/liziyao/.ivy2/cache/org.ow2.asm/asm-commons/docs/asm-commons-4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="asm-commons" type="jar" ext="jar" status="no" details="" size="38090" time="0" location="/Users/liziyao/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.1" status="release" pubdate="20121014233745" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
+				<metadata-artifact status="no" details="" size="3744" time="0" location="/Users/liziyao/.ivy2/cache/org.ow2.asm/asm/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/liziyao/.ivy2/cache/org.ow2.asm/asm/srcs/asm-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1-sources.jar"/>
+					</artifact>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="47359" time="0" location="/Users/liziyao/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar"/>
+					</artifact>
+					<artifact name="asm" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1518830" time="0" location="/Users/liziyao/.ivy2/cache/org.ow2.asm/asm/docs/asm-4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.5" status="release" pubdate="20130105113525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+				<metadata-artifact status="no" details="" size="5587" time="0" location="/Users/liziyao/.ivy2/cache/org.antlr/antlr-runtime/ivy-3.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="767177" time="0" location="/Users/liziyao/.ivy2/cache/org.antlr/antlr-runtime/docs/antlr-runtime-3.5-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="no" details="" size="167735" time="0" location="/Users/liziyao/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar"/>
+					</artifact>
+					<artifact name="antlr-runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="205982" time="0" location="/Users/liziyao/.ivy2/cache/org.antlr/antlr-runtime/srcs/antlr-runtime-3.5-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial">
+			<revision name="4.10.4" status="release" pubdate="20150303161824" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="29">
+				<metadata-artifact status="no" details="" size="350276" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-spatial/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/4.10.4/lucene-spatial-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-spatial" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="327157" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-spatial/docs/lucene-spatial-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/4.10.4/lucene-spatial-4.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-spatial" type="jar" ext="jar" status="no" details="" size="126794" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-spatial/jars/lucene-spatial-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/4.10.4/lucene-spatial-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-spatial" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="99129" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-spatial/srcs/lucene-spatial-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/4.10.4/lucene-spatial-4.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.spatial4j" name="spatial4j">
+			<revision name="0.4.1" status="release" pubdate="20140219141135" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spatial4j/spatial4j" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4007" time="0" location="/Users/liziyao/.ivy2/cache/com.spatial4j/spatial4j/ivy-0.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spatial4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="370667" time="0" location="/Users/liziyao/.ivy2/cache/com.spatial4j/spatial4j/docs/spatial4j-0.4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="spatial4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="91814" time="0" location="/Users/liziyao/.ivy2/cache/com.spatial4j/spatial4j/srcs/spatial4j-0.4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="spatial4j" type="jar" ext="jar" status="no" details="" size="102177" time="0" location="/Users/liziyao/.ivy2/cache/com.spatial4j/spatial4j/jars/spatial4j-0.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-join">
+			<revision name="4.10.4" status="release" pubdate="20150303161952" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="27">
+				<metadata-artifact status="no" details="" size="350227" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-join/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-join/4.10.4/lucene-join-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-join" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="45777" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-join/srcs/lucene-join-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-join/4.10.4/lucene-join-4.10.4-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-join" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="110543" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-join/docs/lucene-join-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-join/4.10.4/lucene-join-4.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-join" type="jar" ext="jar" status="no" details="" size="64021" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-join/jars/lucene-join-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-join/4.10.4/lucene-join-4.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-grouping">
+			<revision name="4.10.4" status="release" pubdate="20150303162017" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+				<metadata-artifact status="no" details="" size="350130" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-grouping/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/4.10.4/lucene-grouping-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-grouping" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70295" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-grouping/srcs/lucene-grouping-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/4.10.4/lucene-grouping-4.10.4-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-grouping" type="jar" ext="jar" status="no" details="" size="107784" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-grouping/jars/lucene-grouping-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/4.10.4/lucene-grouping-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-grouping" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="265109" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-grouping/docs/lucene-grouping-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/4.10.4/lucene-grouping-4.10.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-suggest">
+			<revision name="4.10.4" status="release" pubdate="20150303161814" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+				<metadata-artifact status="no" details="" size="350670" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-suggest/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/4.10.4/lucene-suggest-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-suggest" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="439407" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-suggest/docs/lucene-suggest-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/4.10.4/lucene-suggest-4.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-suggest" type="jar" ext="jar" status="no" details="" size="179011" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-suggest/jars/lucene-suggest-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/4.10.4/lucene-suggest-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-suggest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146590" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-suggest/srcs/lucene-suggest-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/4.10.4/lucene-suggest-4.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-misc">
+			<revision name="4.10.4" status="release" pubdate="20150303161929" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="26">
+				<metadata-artifact status="no" details="" size="349891" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-misc/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/4.10.4/lucene-misc-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-misc" type="jar" ext="jar" status="no" details="" size="97173" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-misc/jars/lucene-misc-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/4.10.4/lucene-misc-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-misc" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="216138" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-misc/docs/lucene-misc-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/4.10.4/lucene-misc-4.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-misc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="82520" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-misc/srcs/lucene-misc-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/4.10.4/lucene-misc-4.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-highlighter">
+			<revision name="4.10.4" status="release" pubdate="20150303162007" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<metadata-artifact status="no" details="" size="350431" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-highlighter/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/4.10.4/lucene-highlighter-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-highlighter" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117049" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-highlighter/srcs/lucene-highlighter-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/4.10.4/lucene-highlighter-4.10.4-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-highlighter" type="jar" ext="jar" status="no" details="" size="138282" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-highlighter/jars/lucene-highlighter-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/4.10.4/lucene-highlighter-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-highlighter" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="393759" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-highlighter/docs/lucene-highlighter-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/4.10.4/lucene-highlighter-4.10.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-memory">
+			<revision name="4.10.4" status="release" pubdate="20150303161941" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+				<metadata-artifact status="no" details="" size="350403" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-memory/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/4.10.4/lucene-memory-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-memory" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25735" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-memory/srcs/lucene-memory-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/4.10.4/lucene-memory-4.10.4-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-memory" type="jar" ext="jar" status="no" details="" size="36078" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-memory/jars/lucene-memory-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/4.10.4/lucene-memory-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-memory" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="61322" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-memory/docs/lucene-memory-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/4.10.4/lucene-memory-4.10.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queryparser">
+			<revision name="4.10.4" status="release" pubdate="20150303161903" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+				<metadata-artifact status="no" details="" size="350554" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-queryparser/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.4/lucene-queryparser-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-queryparser" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1467530" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-queryparser/docs/lucene-queryparser-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.4/lucene-queryparser-4.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-queryparser" type="jar" ext="jar" status="no" details="" size="391515" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-queryparser/jars/lucene-queryparser-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.4/lucene-queryparser-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-queryparser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="405135" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-queryparser/srcs/lucene-queryparser-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.4/lucene-queryparser-4.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-sandbox">
+			<revision name="4.10.4" status="release" pubdate="20150303161838" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+				<metadata-artifact status="no" details="" size="349989" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-sandbox/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.4/lucene-sandbox-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-sandbox" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="96469" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-sandbox/srcs/lucene-sandbox-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.4/lucene-sandbox-4.10.4-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-sandbox" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="215396" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-sandbox/docs/lucene-sandbox-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.4/lucene-sandbox-4.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-sandbox" type="jar" ext="jar" status="no" details="" size="119449" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-sandbox/jars/lucene-sandbox-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.4/lucene-sandbox-4.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queries">
+			<revision name="4.10.4" status="release" pubdate="20150303161918" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="349857" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-queries/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.4/lucene-queries-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-queries" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="497195" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-queries/docs/lucene-queries-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.4/lucene-queries-4.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-queries" type="jar" ext="jar" status="no" details="" size="213029" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-queries/jars/lucene-queries-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.4/lucene-queries-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-queries" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="136301" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-queries/srcs/lucene-queries-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.4/lucene-queries-4.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="4.10.4" status="release" pubdate="20150303162333" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
+				<metadata-artifact status="no" details="" size="349885" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.4/lucene-analyzers-common-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2809259" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/docs/lucene-analyzers-common-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.4/lucene-analyzers-common-4.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-analyzers-common" type="jar" ext="jar" status="no" details="" size="1699875" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/jars/lucene-analyzers-common-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.4/lucene-analyzers-common-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-analyzers-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1727887" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/srcs/lucene-analyzers-common-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.4/lucene-analyzers-common-4.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="4.10.4" status="release" pubdate="20150303162111" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="348802" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-core/ivy-4.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="4.10.4" rev-constraint-default="4.10.4" rev-constraint-dynamic="4.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1969441" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-core/srcs/lucene-core-4.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="2563490" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-4.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4877350" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.lucene/lucene-core/docs/lucene-core-4.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming-kafka_2.10">
+			<revision name="1.5.0" status="release" pubdate="20150901175755" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="71405" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/apache/spark/spark-streaming-kafka_2.10/1.5.0/spark-streaming-kafka_2.10-1.5.0.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spark-streaming-kafka_2.10" type="jar" ext="jar" status="no" details="" size="270086" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.5.0.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/spark/spark-streaming-kafka_2.10/1.5.0/spark-streaming-kafka_2.10-1.5.0.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-kafka_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36649" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/srcs/spark-streaming-kafka_2.10-1.5.0-sources.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/spark/spark-streaming-kafka_2.10/1.5.0/spark-streaming-kafka_2.10-1.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-kafka_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="383464" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/docs/spark-streaming-kafka_2.10-1.5.0-javadoc.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/spark/spark-streaming-kafka_2.10/1.5.0/spark-streaming-kafka_2.10-1.5.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spark-project.spark" name="unused">
+			<revision name="1.0.0" status="release" pubdate="20141022150005" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2849" time="0" location="/Users/liziyao/.ivy2/cache/org.spark-project.spark/unused/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="unused" type="jar" ext="jar" status="no" details="" size="2777" time="0" location="/Users/liziyao/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar"/>
+					</artifact>
+					<artifact name="unused" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="21863" time="0" location="/Users/liziyao/.ivy2/cache/org.spark-project.spark/unused/docs/unused-1.0.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="unused" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="594" time="0" location="/Users/liziyao/.ivy2/cache/org.spark-project.spark/unused/srcs/unused-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka_2.10">
+			<revision name="0.8.2.1" status="release" pubdate="20150227063232" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3754" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.kafka/kafka_2.10/ivy-0.8.2.1.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/apache/kafka/kafka_2.10/0.8.2.1/kafka_2.10-0.8.2.1.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="0.8.2.1" rev-constraint-default="0.8.2.1" rev-constraint-dynamic="0.8.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="kafka_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="37750" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.kafka/kafka_2.10/docs/kafka_2.10-0.8.2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/kafka/kafka_2.10/0.8.2.1/kafka_2.10-0.8.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="kafka_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="521466" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.kafka/kafka_2.10/srcs/kafka_2.10-0.8.2.1-sources.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/kafka/kafka_2.10/0.8.2.1/kafka_2.10-0.8.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="kafka_2.10" type="jar" ext="jar" status="no" details="" size="3991269" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.kafka/kafka_2.10/jars/kafka_2.10-0.8.2.1.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/kafka/kafka_2.10/0.8.2.1/kafka_2.10-0.8.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.101tec" name="zkclient">
+			<revision name="0.3" status="release" pubdate="20130529154028" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sgroschupf/zkclient" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3668" time="0" location="/Users/liziyao/.ivy2/cache/com.101tec/zkclient/ivy-0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.3/zkclient-0.3.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="0.3" rev-constraint-default="0.3" rev-constraint-dynamic="0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="zkclient" type="jar" ext="jar" status="no" details="" size="64009" time="0" location="/Users/liziyao/.ivy2/cache/com.101tec/zkclient/jars/zkclient-0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.3/zkclient-0.3.jar"/>
+					</artifact>
+					<artifact name="zkclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39260" time="0" location="/Users/liziyao/.ivy2/cache/com.101tec/zkclient/srcs/zkclient-0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.3/zkclient-0.3-sources.jar"/>
+					</artifact>
+					<artifact name="zkclient" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="120553" time="0" location="/Users/liziyao/.ivy2/cache/com.101tec/zkclient/docs/zkclient-0.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.3/zkclient-0.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.jopt-simple" name="jopt-simple">
+			<revision name="3.2" status="release" pubdate="20091208090746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jopt-simple.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3365" time="0" location="/Users/liziyao/.ivy2/cache/net.sf.jopt-simple/jopt-simple/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jopt-simple" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="90804" time="0" location="/Users/liziyao/.ivy2/cache/net.sf.jopt-simple/jopt-simple/docs/jopt-simple-3.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="jopt-simple" type="jar" ext="jar" status="no" details="" size="53244" time="0" location="/Users/liziyao/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar"/>
+					</artifact>
+					<artifact name="jopt-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="65034" time="0" location="/Users/liziyao/.ivy2/cache/net.sf.jopt-simple/jopt-simple/srcs/jopt-simple-3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.4.6" status="release" pubdate="20140224011855" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<metadata-artifact status="no" details="" size="4130" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.zookeeper/zookeeper/ivy-3.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="3.4.6" rev-constraint-default="3.4.6" rev-constraint-dynamic="3.4.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="zookeeper" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="352453" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.zookeeper/zookeeper/docs/zookeeper-3.4.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="zookeeper" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="554612" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.zookeeper/zookeeper/srcs/zookeeper-3.4.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar"/>
+					</artifact>
+					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="792964" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.7.0.Final" status="release" pubdate="20130905222826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6425" time="0" location="/Users/liziyao/.ivy2/cache/io.netty/netty/ivy-3.7.0.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="3.7.0.Final" rev-constraint-default="3.7.0.Final" rev-constraint-dynamic="3.7.0.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="8815371" time="0" location="/Users/liziyao/.ivy2/cache/io.netty/netty/docs/netty-3.7.0.Final-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-javadoc.jar"/>
+					</artifact>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1208356" time="0" location="/Users/liziyao/.ivy2/cache/io.netty/netty/jars/netty-3.7.0.Final.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar"/>
+					</artifact>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1066500" time="0" location="/Users/liziyao/.ivy2/cache/io.netty/netty/srcs/netty-3.7.0.Final-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="0.9.94" status="release" pubdate="20080223035343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jline.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2959" time="0" location="/Users/liziyao/.ivy2/cache/jline/jline/ivy-0.9.94.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="0.9.94" rev-constraint-default="0.9.94" rev-constraint-dynamic="0.9.94" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="87325" time="0" location="/Users/liziyao/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar"/>
+					</artifact>
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76456" time="0" location="/Users/liziyao/.ivy2/cache/jline/jline/srcs/jline-0.9.94-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.6.1" status="release" pubdate="20100706043004" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<metadata-artifact status="no" details="" size="4545" time="0" location="/Users/liziyao/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9549" time="0" location="/Users/liziyao/.ivy2/cache/org.slf4j/slf4j-log4j12/srcs/slf4j-log4j12-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-log4j12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="52406" time="0" location="/Users/liziyao/.ivy2/cache/org.slf4j/slf4j-log4j12/docs/slf4j-log4j12-1.6.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="9753" time="0" location="/Users/liziyao/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="3.8.1" status="release" pubdate="20070515053418" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2457" time="0" location="/Users/liziyao/.ivy2/cache/junit/junit/ivy-3.8.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57635" time="0" location="/Users/liziyao/.ivy2/cache/junit/junit/srcs/junit-3.8.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
+					</artifact>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="121070" time="0" location="/Users/liziyao/.ivy2/cache/junit/junit/jars/junit-3.8.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.16" status="release" pubdate="20100331122544" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3559" time="0" location="/Users/liziyao/.ivy2/cache/log4j/log4j/ivy-1.2.16.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="481535" time="0" location="/Users/liziyao/.ivy2/cache/log4j/log4j/jars/log4j-1.2.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+					</artifact>
+					<artifact name="log4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1454850" time="0" location="/Users/liziyao/.ivy2/cache/log4j/log4j/docs/log4j-1.2.16-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16-javadoc.jar"/>
+					</artifact>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="471225" time="0" location="/Users/liziyao/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka-clients">
+			<revision name="0.8.2.1" status="release" pubdate="20150227064232" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3008" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.kafka/kafka-clients/ivy-0.8.2.1.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="0.8.2.1" rev-constraint-default="0.8.2.1" rev-constraint-dynamic="0.8.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="kafka-clients" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="153495" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.kafka/kafka-clients/docs/kafka-clients-0.8.2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="kafka-clients" type="jar" ext="jar" status="no" details="" size="324010" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.8.2.1.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1.jar"/>
+					</artifact>
+					<artifact name="kafka-clients" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="260290" time="0" location="/Users/liziyao/.ivy2/cache/org.apache.kafka/kafka-clients/srcs/kafka-clients-0.8.2.1-sources.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.1.6" status="release" pubdate="20141026194224" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.comm/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3283" time="0" location="/Users/liziyao/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.6/snappy-java-1.1.1.6.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.1.1.6" rev-constraint-default="1.1.1.6" rev-constraint-dynamic="1.1.1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="snappy-java" type="jar" ext="jar" status="no" details="" size="592319" time="0" location="/Users/liziyao/.ivy2/cache/org.xerial.snappy/snappy-java/jars/snappy-java-1.1.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.6/snappy-java-1.1.1.6.jar"/>
+					</artifact>
+					<artifact name="snappy-java" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="108499" time="0" location="/Users/liziyao/.ivy2/cache/org.xerial.snappy/snappy-java/docs/snappy-java-1.1.1.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.6/snappy-java-1.1.1.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="586606" time="0" location="/Users/liziyao/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.6/snappy-java-1.1.1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.jpountz.lz4" name="lz4">
+			<revision name="1.2.0" status="release" pubdate="20130808233434" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jpountz/lz4-java" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2606" time="0" location="/Users/liziyao/.ivy2/cache/net.jpountz.lz4/lz4/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lz4" type="jar" ext="jar" status="no" details="" size="165505" time="0" location="/Users/liziyao/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar"/>
+					</artifact>
+					<artifact name="lz4" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="64868" time="0" location="/Users/liziyao/.ivy2/cache/net.jpountz.lz4/lz4/docs/lz4-1.2.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="lz4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38485" time="0" location="/Users/liziyao/.ivy2/cache/net.jpountz.lz4/lz4/srcs/lz4-1.2.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.6" status="release" pubdate="20140206063714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="4567" time="0" location="/Users/liziyao/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="204280" time="0" location="/Users/liziyao/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.6-javadoc.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="28688" time="0" location="/Users/liziyao/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49313" time="0" location="/Users/liziyao/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.6-sources.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140319054629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2585" time="0" location="/Users/liziyao/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/Users/liziyao/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33913490" time="0" location="/Users/liziyao/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.10.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1062421" time="0" location="/Users/liziyao/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.yammer.metrics" name="metrics-core">
+			<revision name="2.2.0" status="release" pubdate="20121127041109" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="4088" time="0" location="/Users/liziyao/.ivy2/cache/com.yammer.metrics/metrics-core/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.pom"/>
+				<caller organisation="nesting-algorithm" name="nesting-algorithm$sources_javadoc" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="metrics-core" type="jar" ext="jar" status="no" details="" size="82123" time="0" location="/Users/liziyao/.ivy2/cache/com.yammer.metrics/metrics-core/jars/metrics-core-2.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar"/>
+					</artifact>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46705" time="0" location="/Users/liziyao/.ivy2/cache/com.yammer.metrics/metrics-core/srcs/metrics-core-2.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-sources.jar"/>
+					</artifact>
+					<artifact name="metrics-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="319899" time="0" location="/Users/liziyao/.ivy2/cache/com.yammer.metrics/metrics-core/docs/metrics-core-2.2.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

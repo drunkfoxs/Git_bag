@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>NAPA - Topology Analytics</title>
+    <style type="text/css">
+      * { margin:0;padding:0; }
+      body {
+      background-color: #f5f5f5;
+      font-family: Helvetica, Arial;
+      }
+      #logmet-alert {
+      width: 100%;
+      background-color: rgb(224, 139, 78);
+      text-align: center;
+      padding: 15px 0;
+      color: #FFF;
+      }
+      .container {margin-top: 80px;}
+      .form-signin {
+      text-align: center;
+      max-width: 300px;
+      padding: 19px 29px 29px;
+      margin: 0 auto 20px;
+      background-color: #fff;
+      border: 1px solid #e5e5e5;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signin .form-signin-heading { margin-bottom: 14px; }
+      .form-signin .checkbox {
+      margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+      font-size: 16px;
+      height: auto;
+      margin-bottom: 15px;
+      padding: 7px 9px;
+      }
+      .container p {
+      font-size: 0.85em;
+      color: #555;
+      }
+      button.btn { padding: 6px; }
+    </style>
+    
+    <script type="text/javascript"
+            src="//www.ibm.com/common/stats/ida_production.js"></script>
+
+  </head>
+  <body>
+    <div id="logmet-alert" style="display:none">Our system is having some
+      trouble right now. Our team is working to fix the issue.</div>
+    <div class="container">
+      <form class="form-signin" action="/analyze" method="post"
+            accept-charset="utf-8">
+        <br>
+        <h3 class="form-signin-heading">Topology Analytics</h3>
+        <input name="user" type="text" class="input-block-level"
+               placeholder="User">
+        <input name="passwd" type="password" class="input-block-level"
+               placeholder="Password">
+        <input name="space" type="text" class="input-block-level"
+               placeholder="Space">
+        <input name="organization" type="text" class="input-block-level"
+               placeholder="Organization"><br>
+        <!-- Search records from (date and time):   <input type="datetime-local" name="start_time"> -->
+        <button class="btn btn-large btn-primary"
+                type="submit">Show Topology</button>
+      </form>
+    </div>
+  </body>
+</html>

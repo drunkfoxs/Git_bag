@@ -1,0 +1,59 @@
+uuid,client_ip,client_port,server_ip,server_port,client_in_time,client_out_time,server_in_time,server_out_time
+
+[
+  {
+    "uuid": "001",
+    "client_ip": "9.12.248.10",
+    "client_port": 54161,
+    "server_ip": "9.12.248.11",
+    "server_port": 8080,
+    "client_in_time": "2015-08-27T12:19:02.000Z",
+    "client_out_time": "2015-08-27T12:19:01.000Z",
+    "server_in_time": "2015-08-27T12:19:01.010Z",
+    "server_out_time": "2015-08-27T12:19:01.990Z"
+  },
+  {
+    "uuid": "002",
+    "client_ip": "9.12.248.11",
+    "client_port": 54171,
+    "server_ip": "9.12.248.12",
+    "server_port": 8080,
+    "client_in_time": "2015-08-27T12:19:01.980Z",
+    "client_out_time": "2015-08-27T12:19:01.020Z",
+    "server_in_time": "2015-08-27T12:19:01.030Z",
+    "server_out_time": "2015-08-27T12:19:01.970Z"
+  },
+  {
+    "uuid": "003",
+    "client_ip": "9.12.248.11",
+    "client_port": 54181,
+    "server_ip": "9.12.248.23",
+    "server_port": 8080,
+    "client_in_time": "2015-08-27T12:19:01.680Z",
+    "client_out_time": "2015-08-27T12:19:01.520Z",
+    "server_in_time": "2015-08-27T12:19:01.530Z",
+    "server_out_time": "2015-08-27T12:19:01.670Z"
+  },
+  {
+    "uuid": "004",
+    "client_ip": "9.12.248.11",
+    "client_port": 54191,
+    "server_ip": "9.12.248.24",
+    "server_port": 8080,
+    "client_in_time": "2015-08-27T12:19:02.680Z",
+    "client_out_time": "2015-08-27T12:19:02.520Z",
+    "server_in_time": "2015-08-27T12:19:02.530Z",
+    "server_out_time": "2015-08-27T12:19:02.670Z"
+  },
+  {
+    "uuid": "005",
+    "client_ip": "9.12.248.12",
+    "client_port": 54191,
+    "server_ip": "9.12.248.13",
+    "server_port": 8080,
+    "client_in_time": "2015-08-27T12:19:02.960Z",
+    "client_out_time": "2015-08-27T12:19:02.040Z",
+    "server_in_time": "2015-08-27T12:19:02.050Z",
+    "server_out_time": "2015-08-27T12:19:02.950Z"
+  }
+]

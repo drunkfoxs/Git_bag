@@ -1,0 +1,19 @@
+{
+"namespace" : "iodine.avro",
+"type": "record",
+"name": "TapRecord",
+"doc": "PCAP Records from container interfaces",
+"fields": [
+            {"name": "bm_space_id", "type": "string"},
+            {"name": "neutron_tap_int", "type": "string"},
+            {"name": "neutron_port_id", "type": "string"},
+            {"name": "neutron_fixed_ip", "type": "string"},
+            {"name": "neutron_floating_ip", "type": "string"},
+            {"name": "nova_host", "type": "string"},
+            {"name": "nova_human_name", "type": "string"},
+            {"name": "nova_instance_id", "type": "string"},
+            {"name": "tap_interval", "type": "int"},
+            {"name": "tap_time", "type": "double"},
+            {"name": "tap_data", "type": "bytes"}
+           ]
+}
